@@ -299,15 +299,15 @@
   <project path="external/yaffs2" name="external_yaffs2" groups="pdk" />
   <project path="external/zlib" name="external_zlib" groups="pdk" />
   <project path="external/zxing" name="external_zxing" />
-  <project path="frameworks/av" name="frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="frameworks_base" />
+  <project path="frameworks/av" name="frameworks_av" remote="cfx-exp" revision="kk-devel-qcom_media" groups="pdk" />
+  <project path="frameworks/base" name="frameworks_base" remote="cfx-exp" revision="kk-devel-qcom_media" />
   <project path="frameworks/compile/libbcc" name="frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="frameworks_compile_slang" groups="pdk" />
   <project path="frameworks/ex" name="frameworks_ex" />
   <project path="frameworks/mff" name="frameworks_mff" />
   <project path="frameworks/ml" name="frameworks_ml" />
-  <project path="frameworks/native" name="frameworks_native" groups="pdk" />
+  <project path="frameworks/native" name="frameworks_native" remote="cfx-exp" revision="kk-devel-qcom_media" groups="pdk" />
   <project path="frameworks/opt/calendar" name="frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="frameworks_opt_carddav" />
   <project path="frameworks/opt/colorpicker" name="frameworks_opt_colorpicker" />
@@ -336,14 +336,14 @@
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/msm7k" name="hardware_msm7k" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" groups="qcom" />
-  <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" groups="qcom" />
+  <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" remote="cfx-exp" revision="kk-devel-qcom_media" groups="qcom" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="qcom" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" groups="qcom" />
-  <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" groups="qcom" />
+  <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="cfx-exp" revision="kk-devel-qcom_media" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" groups="qcom" />
-  <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" groups="qcom" />
+  <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="cfx-exp" revision="kk-devel-qcom_media" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="hardware_qcom_msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="hardware_qcom_msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" groups="qcom" />
@@ -387,7 +387,7 @@
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" />
   <project path="packages/apps/Camera" name="packages_apps_camera" />
-  <project path="packages/apps/Camera2" name="packages_apps_camera2" />
+  <project path="packages/apps/Camera2" name="packages_apps_camera2" remote="cfx-exp" revision="kk-devel-qcom_media" />
   <project path="packages/apps/CDMATools" name="bigrushdog/cdma_tools" remote="github" revision="master" />
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="packages_apps_CertInstaller" />
@@ -402,7 +402,7 @@
   <project path="packages/apps/Exchange" name="packages_apps_Exchange" />
   <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" remote="github" revision="cm-10.2" />
   <project path="packages/apps/Gallery" name="packages_apps_Gallery" />
-  <project path="packages/apps/Gallery2" name="packages_apps_gallery2" />
+  <project path="packages/apps/Gallery2" name="packages_apps_gallery2" remote="cfx-exp" revision="kk-devel-qcom_media" />
   <project path="packages/apps/HTMLViewer" name="packages_apps_HTMLViewer" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" />
   <project path="packages/apps/KernelControls" name="bigrushdog/kernel_controls" remote="github" revision="jb-devel" />
@@ -440,7 +440,7 @@
   <project path="packages/providers/ContactsProvider" name="packages_providers_contactsprovider" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="packages_providers_DrmProvider" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_mediaprovider" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_mediaprovider" remote="cfx-exp" revision="kk-devel-qcom_media" />
   <project path="packages/providers/PartnerBookmarksProvider" name="packages_providers_PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_telephonyprovider" />
   <project path="packages/providers/UserDictionaryProvider" name="packages_providers_UserDictionaryProvider" />
@@ -514,9 +514,9 @@
   <project path="prebuilts/tools" name="prebuilts_tools" groups="pdk,tools" />
   <project path="sdk" name="sdk" />
   <project path="system/bluetooth" name="system_bluetooth" groups="pdk" />
-  <project path="system/core" name="system_core" groups="pdk" />
+  <project path="system/core" name="system_core" remote="cfx-exp" revision="kk-devel-qcom_media" groups="pdk" />
   <project path="system/extras" name="system_extras" groups="pdk" />
-  <project path="system/media" name="system_media" groups="pdk" />
+  <project path="system/media" name="system_media" remote="cfx-exp" revision="kk-devel-qcom_media" groups="pdk" />
   <project path="system/netd" name="system_netd" groups="pdk" />
   <project path="system/security" name="system_security" groups="pdk" />
   <project path="system/vold" name="system_vold" groups="pdk" />
