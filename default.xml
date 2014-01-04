@@ -544,7 +544,7 @@
   <project path="vendor/audience" name="proprietary_vendor_audience" groups="vendor,audience,manta" />
   <project path="vendor/broadcom" name="vendor_broadcom" groups="vendor,broadcom" />
   <project path="vendor/broadcom/wlan" name="OpenSEMC/vendor_broadcom_wlan" remote="github" revision="kk-devel" groups="vendor,broadcom" />
-  <project path="vendor/cfx" name="vendor_cfx" />
+  <project path="vendor/cfx" name="vendor_cfx" remote="cfx-exp" revision="kk-devel-qcom_media" />
   <project path="vendor/elan" name="proprietary_vendor_elan" groups="vendor,elan,asus,grouper,tilapia" />
   <project path="vendor/htc" name="proprietary_vendor_htc" groups="notdefault,vendor,htc,dlx,m7,m7ul,m7spr,s4,jewel,evita,ville,fireball" />
   <project path="vendor/htc/ace" name="vendor_htc_ace" groups="notdefault,vendor,htc,ace" />
