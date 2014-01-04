@@ -24,7 +24,7 @@
            remote="cfx-exp"
            sync-j="4" />
 
-  <project path="build" name="build" groups="pdk" >
+  <project path="build" name="build" remote="cfx-exp" revision="kk-devel-qcom_media" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="art" name="art" />
