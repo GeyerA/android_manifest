@@ -35,71 +35,17 @@
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" />
   <project path="dalvik" name="dalvik" />
   <project path="development" name="development" />
-  <project path="device/asus/deb" name="device_asus_deb" groups="notdefault,device,flo,asus" />
-  <project path="device/asus/flo" name="device_asus_flo" groups="notdefault,device,flo,asus" />
-  <project path="device/asus/flo-kernel" name="device_asus_flo-kernel" groups="notdefault,device,flo,asus" />
-  <project path="device/asus/grouper" name="device_asus_grouper" groups="notdefault,device,grouper,tilapia,asus" />
-  <project path="device/asus/tf101" name="device_asus_tf101" groups="notdefault,device,asus,tf101" />
-  <project path="device/asus/tilapia" name="device_asus_tilapia" groups="notdefault,device,grouper,tilapia,asus" />
   <project path="device/common" name="device_common" />
   <project path="device/generic/armv7-a-neon" name="device_generic_armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device_generic_common" groups="pdk" />
-  <project path="device/generic/goldfish" name="device_generic_goldfish" groups="pdk" />
-  <project path="device/generic/mips" name="device_generic_mips" groups="pdk" />
-  <project path="device/generic/mini-emulator-armv7-a-neon" name="device_generic_mini-emulator-armv7-a-neon" groups="pdk" />
-  <project path="device/generic/mini-emulator-mips" name="device_generic_mini-emulator-mips" groups="pdk" />
-  <project path="device/generic/mini-emulator-x86" name="device_generic_mini-emulator-x86" groups="pdk" />
-  <project path="device/generic/x86" name="device_generic_x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device_google_accessory_arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device_google_accessory_demokit" groups="device" />
-  <project path="device/htc/ace" name="device_htc_ace" groups="notdefault,device,htc,ace" />
-  <project path="device/htc/m7-common" name="device_htc_m7-common" groups="notdefault,device,htc,m7,m7spr,m7vzw" />
-  <project path="device/htc/m7" name="device_htc_m7" groups="notdefault,device,htc,m7," />
-  <project path="device/htc/m7spr" name="device_htc_m7spr" groups="notdefault,device,htc,m7,m7spr" />
-  <project path="device/htc/m7vzw" name="device_htc_m7vzw" groups="notdefault,device,htc,m7,m7vzw" />
-  <project path="device/htc/dlx" name="device_htc_dlx" groups="notdefault,device,htc,m7,dlx" />
-  <project path="device/htc/s4-common" name="device_htc_s4-common" groups="notdefault,device,htc,s4,jewel,evita,ville,fireball" />
-  <project path="device/htc/jewel" name="device_htc_jewel" groups="notdefault,device,htc,s4,jewel" />
-  <project path="device/htc/evita" name="device_htc_evita" groups="notdefault,device,htc,s4,evita" />
-  <project path="device/htc/ville" name="device_htc_ville" groups="notdefault,device,htc,s4,ville" />
-  <project path="device/htc/fireball" name="device_htc_fireball" groups="notdefault,device,htc,fireball" />
-  <project path="device/htc/msm7x30-common" name="device_htc_msm7x30-common" groups="notdefault,device,htc,ace" />
-  <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" groups="notdefault,device,htc,s4,dlx,m7,m7spr,m7vzw,jewel,evita,ville,fireball" />
-  <project path="device/lge/e970" name="device_lge_e970" groups="notdefault,device,lge,gee,e970" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" groups="notdefault,device,hammerhead" />
   <project path="device/lge/hammerhead-kernel" name="device_lge_hammerhead-kernel" groups="notdefault,device,hammerhead" />
-  <project path="device/lge/ls970" name="device_lge_ls970" groups="notdefault,device,lge,gee,ls970" />
-  <project path="device/lge/ls970-common" name="device_lge_ls970-common" groups="notdefault,device,lge,gee,ls970" />
   <project path="device/lge/mako" name="device_lge_mako" groups="notdefault,device,lge,mako" />
-  <project path="device/moto/wingray" name="device_moto_wingray" groups="notdefault,device,moto,motorola,xoom,wingray" />
-  <project path="device/moto/stingray" name="device_moto_stingray" groups="notdefault,device,moto,motorola,xoom,stingray" />
-  <project path="device/moto/umts_everest" name="device_moto_umts_everest" groups="notdefault,device,moto,motorola,xoom,umts_everest" />
-  <project path="device/moto/stingray_cdma" name="device_moto_stingray_cdma" groups="notdefault,device,moto,motorola,xoom,stingray_cdma" />
-  <project path="device/motorola/mb886" name="device_motorola_mb886" groups="notdefault,device,moto,motorola,mb886" />
-  <project path="device/motorola/msm8960-common" name="device_motorola_msm8960-common" groups="notdefault,device,moto,motorola,msm8960-common,mb886" />
-  <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" groups="notdefault,device,moto,motorola,qcom-common,mb886" />
-  <project path="device/oppo/find5" name="device_oppo_find5" groups="notdefault,device,oppo,find5" />
-  <project path="device/oppo/n1" name="device_oppo_n1" groups="notdefault,device,oppo,n1" />
   <project path="device/sample" name="device_sample" groups="pdk" />
-  <project path="device/samsung/jf-common" name="device_samsung_jf-common" groups="notdefault,device,samsung,jf,jf-common,jfltexx,jfltevzw" />
-  <project path="device/samsung/jfltexx" name="device_samsung_jfltexx" groups="notdefault,device,samsung,jf,jfltexx" />
-  <project path="device/samsung/jfltevzw" name="device_samsung_jfltevzw" groups="notdefault,device,samsung,jf,jfltevzw" />
   <project path="device/samsung/maguro" name="device_samsung_maguro" groups="notdefault,device,samsung,tuna,maguro" />
-  <project path="device/samsung/manta" name="device_samsung_manta" groups="notdefault,device,samsung,manta" />
-  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-10.2" />
-  <project path="device/samsung/toro" name="device_samsung_toro" groups="notdefault,device,samsung,tuna,toro" />
-  <project path="device/samsung/toroplus" name="device_samsung_toroplus" groups="notdefault,device,samsung,tuna,toroplus" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" groups="notdefault,device,samsung,tuna,maguro,toro,toroplus" />
-  <project path="device/samsung_slsi/arndale" name="device_samsung_slsi_arndale" groups="notdefault,device,samsung_slsi,arndale" />
-  <project path="device/samsung/n5110" name="android_device_samsung_n5110" groups="notdefault,device,samsung,kona,n5110" />
-  <project path="device/samsung/kona-common" name="android_device_samsung_kona-common" groups="notdefault,device,samsung,smdk4412,kona" />
-  <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" groups="notdefault,device,samsung,smdk4412" />
-  <project path="device/sony/aoba" name="OpenSEMC/android_device_sony_aoba" remote="github" revision="kk-devel" groups="notdefault,device,sony,aoba"/>
-  <project path="device/sony/fuji-common" name="OpenSEMC/android_device_sony_fuji-common" remote="github" revision="kk-devel" groups="notdefault,device,sony"/>
-  <project path="device/sony/hikari" name="OpenSEMC/android_device_sony_hikari" remote="github" revision="kk-devel" groups="notdefault,device,sony,hikari"/>
-  <project path="device/sony/nozomi" name="OpenSEMC/android_device_sony_nozomi" remote="github" revision="kk-devel" groups="notdefault,device,sony,nozomi"/>
-  <project path="kernel/sony/msm8x60" name="OpenSEMC/android_kernel_sony_msm8x60" remote="github" revision="kk-devel" groups="notdefault,kernel,sony"/>
-  <project path="device/ti/panda" name="device_ti_panda" groups="notdefault,device,ti,texasinstruments,panda" />
   <project path="docs/source.android.com" name="docs_source.android.com" />
   <project path="external/aac" name="external_aac" groups="pdk" />
   <project path="external/android-clat" name="external_android-clat" />
@@ -551,38 +497,22 @@
   <project path="vendor/broadcom" name="vendor_broadcom" groups="vendor,broadcom" />
   <project path="vendor/broadcom/wlan" name="OpenSEMC/vendor_broadcom_wlan" remote="github" revision="kk-devel" groups="vendor,broadcom" />
   <project path="vendor/cfx" name="vendor_cfx" />
-  <project path="vendor/elan" name="proprietary_vendor_elan" groups="vendor,elan,asus,grouper,tilapia" />
-  <project path="vendor/htc" name="proprietary_vendor_htc" groups="notdefault,vendor,htc,dlx,m7,m7spr,m7vzw,s4,jewel,evita,ville,fireball" />
-  <project path="vendor/htc/ace" name="vendor_htc_ace" groups="notdefault,vendor,htc,ace" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" groups="vendor,imgtec" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" groups="vendor,invensense" />
-  <project path="vendor/lge/e975" name="vendor_lge_e975" groups="notdefault,vendor,lge,gee,e970,e975,ls970" />
   <project path="vendor/lge/hammerhead" name="vendor_lge_hammerhead" groups="notdefault,vendor,lge,hammerhead" />
   <project path="vendor/lge/mako" name="vendor_lge_mako" groups="notdefault,vendor,lge,mako" />
-  <project path="vendor/lge/vs980" name="vendor_lge_vs980" groups="notdefault,vendor,lge,vs980" />
-  <project path="vendor/motorola" name="vendor_motorola" groups="notdefault,vendor,motorola,moto,mb886,xoom,wingray,stingray,umts_everest,singray_cdma" /> 
   <project path="vendor/nvidia" name="vendor_nvidia" groups="vendor,nvidia" />
   <project path="vendor/nxp" name="proprietary_vendor_nxp" groups="vendor,nxp" />
-  <project path="vendor/oppo/find5" name="vendor_oppo_find5" groups="notdefault,vendor,oppo,find5" />
-  <project path="vendor/oppo/n1" name="vendor_oppo_n1" groups="notdefault,vendor,oppo,n1" />
   <project path="vendor/qcom/mako" name="vendor_qcom_mako" groups="notdefault,vendor,qcom,lge,mako" />
-  <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" groups="notdefault,vendor,qcom,htc,ace" />
   <project path="vendor/qcom/proprietary/libqc-dalvik" name="vendor_qcom_proprietary_libqc-dalvik" />
   <project path="vendor/qcom/proprietary/libqc-mpctl" name="vendor_qcom_proprietary_libqc-mpctl" />
   <project path="vendor/qcom/proprietary/libqc-opt" name="vendor_qcom_proprietary_libqc-opt" />
   <project path="vendor/qcom/proprietary/libqc-skia" name="vendor_qcom_proprietary_libqc-skia" />
   <project path="vendor/qcom/proprietary/libqc-sqlite" name="vendor_qcom_proprietary_libqc-sqlite" />
-  <project path="vendor/samsung/manta" name="vendor_samsung_manta" groups="notdefault,vendor,samsung,manta" />
-  <project path="vendor/samsung/jfltexx" name="vendor_samsung_jfltexx" groups="notdefault,vendor,samsung,jfltexx,jf" />
-  <project path="vendor/samsung/jf-common" name="vendor_samsung_jf-common" groups="notdefault,vendor,samsung,jflte,jf,jf-common,jfltexx,jfltevzw,jfltetmo,jfltespr" />
-  <project path="vendor/samsung/jfltevzw" name="vendor_samsung_jfltevzw" groups="notdefault,vendor,samsung,jfltevzw,jf,jflte" />
-  <project path="vendor/samsung/jfltetmo" name="vendor_samsung_jfltetmo" groups="notdefault,vendor,samsung,jfltetmo,jf,jflte" />
-  <project path="vendor/samsung/jfltespr" name="vendor_samsung_jfltespr" groups="notdefault,vendor,samsung,jfltespr,jf,jflte" />
   <project path="vendor/samsung/maguro" name="vendor_samsung_maguro" groups="notdefault,vendor,samsung,maguro,tuna" />
   <project path="vendor/samsung/toro" name="vendor_samsung_toro" groups="notdefault,vendor,samsung,toro,tuna" />
   <project path="vendor/samsung/toroplus" name="vendor_samsung_toroplus" groups="notdefault,vendor,samsung,toroplus,tuna" />
   <project path="vendor/samsung/tuna" name="vendor_samsung_tuna" groups="notdefault,vendor,samsung,maguro,toro,toroplus,tuna" />
-  <project path="vendor/samsung/kona-common" name="vendor_samsung_kona-common" groups="notdefault,vendor,samsung,kona,smdk4112" />
   <project path="vendor/samsung/n5110" name="vendor_samsung_n5110" groups="notdefault,vendor,samsung,kona,n5110" />
   <project path="vendor/samsung/smdk4412-common" name="vendor_samsung_smdk4412-common" groups="notdefault,vendor,samsung,kona,smdk4112,n5110" />
   <project path="vendor/sony" name="OpenSEMC/proprietary_vendor_sony" remote="github" revision="kk-devel" groups="vendor,sony,nozomi" />
