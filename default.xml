@@ -216,6 +216,7 @@
   <project path="external/regex-re2" name="external_regex-re2" />
   <project path="external/replicaisland" name="external_replicaisland" />
   <project path="external/robolectric" name="external_robolectric" />
+  <project path="external/rsync" name="external_rsync" />
   <project path="external/safe-iop" name="external_safe-iop" groups="pdk" />
   <project path="external/scrypt" name="external_scrypt" />
   <project path="external/sepolicy" name="external_sepolicy" groups="pdk" />
@@ -289,6 +290,7 @@
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" groups="qcom" />
+  <project path="hardware/qcom/audio-purecaf" name="hardware_qcom_audio-purecaf" groups="qcom" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="qcom" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" groups="qcom" />
@@ -513,9 +515,6 @@
   <project path="vendor/samsung/toro" name="vendor_samsung_toro" groups="notdefault,vendor,samsung,toro,tuna" />
   <project path="vendor/samsung/toroplus" name="vendor_samsung_toroplus" groups="notdefault,vendor,samsung,toroplus,tuna" />
   <project path="vendor/samsung/tuna" name="vendor_samsung_tuna" groups="notdefault,vendor,samsung,maguro,toro,toroplus,tuna" />
-  <project path="vendor/samsung/n5110" name="vendor_samsung_n5110" groups="notdefault,vendor,samsung,kona,n5110" />
-  <project path="vendor/samsung/smdk4412-common" name="vendor_samsung_smdk4412-common" groups="notdefault,vendor,samsung,kona,smdk4112,n5110" />
-  <project path="vendor/sony" name="OpenSEMC/proprietary_vendor_sony" remote="github" revision="kk-devel" groups="vendor,sony,nozomi" />
   <project path="vendor/tmobile/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" groups="vendor,tmobile" />
   <project path="vendor/tmobile/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" groups="vendor,tmobile" />
   <project path="vendor/tmobile/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" groups="vendor,tmobile" />
